@@ -118,7 +118,6 @@ TodoList.propType = {
 const Box = ({ jobs, setJobs, job, setJob, onSub, todos, onDel, onClear }) => {
   const Locail = localStorage.getItem("key");
   const res = JSON.parse(Locail);
-  console.log(res);
   return (
     <div className="box">
       <div className="content">
